@@ -17,7 +17,7 @@
  * along with this program. If not, see <https://www.gnu.org/licenses/>.
  */
 
-import { TextInputComponent } from './TextInputField';
+import { LabelComponent } from "./LabelComponent";
 
 /**
  * @type RawModal
@@ -29,6 +29,6 @@ export type RawModal = {
 	title: string
 	components: Array<{
 		type: 1
-		components: Array<TextInputComponent>
+		components: Array<LabelComponent>
 	}>
 };

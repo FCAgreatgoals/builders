@@ -24,6 +24,7 @@ export * from './Container';
 export * from './Embed';
 export * from './File';
 export * from './InteractibleComponent';
+export * from './LabelComponent';
 export * from './Media';
 export * from './Modal';
 export * from './Section';
