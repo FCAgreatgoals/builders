@@ -22,7 +22,7 @@ import { MessageComponentType } from "./types";
 
 import { ButtonComponent } from './Button';
 import { TextInputComponent } from './TextInputField';
-import { LabelComponent } from './Modal';
+import { LabelComponent } from './LabelComponent';
 
 import {
 	ChannelSelectMenuComponent,

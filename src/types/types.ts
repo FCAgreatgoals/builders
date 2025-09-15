@@ -33,8 +33,7 @@ export enum MessageComponentType {
 	FILE = 13,
 	SEPARATOR = 14,
 	CONTAINER = 17,
-	MODAL = 18,
-	LABEL = 19
+	LABEL = 18
 }
 
 /**
