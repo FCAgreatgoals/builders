@@ -32,7 +32,9 @@ export enum MessageComponentType {
 	MEDIA_GALERY = 12,
 	FILE = 13,
 	SEPARATOR = 14,
-	CONTAINER = 17
+	CONTAINER = 17,
+	MODAL = 18,
+	LABEL = 19
 }
 
 /**

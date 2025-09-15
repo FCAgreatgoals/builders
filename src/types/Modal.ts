@@ -17,13 +17,25 @@
  * along with this program. If not, see <https://www.gnu.org/licenses/>.
  */
 
+import { BaseComponent } from './Component';
+import { ActionRowComponent } from './ActionRow';
+import { MessageComponentType } from './types';
 import { TextInputComponent } from './TextInputField';
 
-/**
- * @type RawModal
- * @description The raw modal data as described by the Discord API
- * @see https://discord.com/developers/docs/interactions/receiving-and-responding#interaction-response-object-modal
- */
+export type ModalComponent = BaseComponent & {
+	type: MessageComponentType.MODAL
+	custom_id: string
+	title: string
+	components: Array<ActionRowComponent>
+};
+
+
+export type LabelComponent = BaseComponent & {
+	type: MessageComponentType.LABEL
+	content: string
+};
+
+
 export type RawModal = {
 	custom_id: string
 	title: string

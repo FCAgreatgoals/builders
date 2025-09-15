@@ -22,6 +22,7 @@ import { MessageComponentType } from "./types";
 
 import { ButtonComponent } from './Button';
 import { TextInputComponent } from './TextInputField';
+import { LabelComponent } from './Modal';
 
 import {
 	ChannelSelectMenuComponent,
@@ -42,7 +43,8 @@ export type ActionRowComponents =
 	| RoleSelectMenuComponent
 	| StringSelectMenuComponent
 	| MentionableSelectMenuComponent
-	| ChannelSelectMenuComponent;
+	| ChannelSelectMenuComponent
+	| LabelComponent;
 
 /**
  * @type ActionRowComponent
